@@ -22,20 +22,18 @@
 ## 1. Introduction
 
 ### 2. Overview
-Amos Giftware is a UK-based online retail store that sells unique all-occasion gifts.
-The company provides to the general public and to a large percentage of international wholesalers.
+Vixen Manufacturing needs to reduce stockouts & overstock situations. They want to do this with a better understanding of the company's
+demand patterns and lead times.
 
 ### 3. Business Questions
-- What are our customer behaviour trends?
-- Which are the top products sold?
-- Is there a trend in sales?
-- Can we identify loyal customers?
-- Can we identify customers that could become churn?
-- What are our best Countries for sales?
+- How many days' worth of inventory do we have on hand?
+- What is our stockout frequency by SKU?
+- How can we calculate our reorder point?
+- How do our suppliers rank in performance?
+- Is there a seasonality demand for any products?
 
 ## 4. Dataset Overview
-The dataset is the online_retail_II dataset sourced from [Kaggle.com](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci).
-And covers the years 2009 - 2011.
+The dataset is the Supply Chain Shipment Price dataset sourced from [Kaggle.com](https://www.kaggle.com/code/divyeshardeshana/supply-chain-shipment-price-data-analysis).
 
 ### 5. Dataset Shape
 **Rows**: 1067371.
