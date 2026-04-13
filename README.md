@@ -22,18 +22,17 @@
 ## 1. Introduction
 
 ### 2. Overview
-Vixen Manufacturing needs to reduce stockouts & overstock situations. They want to do this with a better understanding of the company's
-demand patterns and lead times.
+This project analyses shipment pricing & delivery performance across a global supply chain.
 
 ### 3. Business Questions
-- How many days' worth of inventory do we have on hand?
-- What is our stockout frequency by SKU?
-- How can we calculate our reorder point?
-- How do our suppliers rank in performance?
-- Is there a seasonality demand for any products?
-
+- What drives shipment cost & delivery performance across countries, vendors, and shipment modes?
+- Where are the biggest opportunities to reduce cost or improve reliability?
+  
 ## 4. Dataset Overview
-The dataset is the Supply Chain Shipment Price dataset sourced from [Kaggle.com](https://www.kaggle.com/code/divyeshardeshana/supply-chain-shipment-price-data-analysis).
+Shipment-level delivery history exported from a supply chain management system (SCMS). This dataset contains shipment identifiers,
+the destination country, vendor info, shipment mode, milestone dates, and cost/quantity fields.
+
+**Dataset source**: [Dataset Link!](https://www.kaggle.com/code/divyeshardeshana/supply-chain-shipment-price-data-analysis)
 
 ### 5. Dataset Shape
 **Rows**: 1067371.
@@ -56,9 +55,8 @@ The 8 Columns are: Invoice, StockCode, Quantity, Description, InvoiceDate, Price
 and could skew the results. I will use the cancelled orders for the dashboard.
 
 ### 10. Tools & Technology
-- MySQL Workbench - Used for the analysis.
-- CSV file - The dataset is in a CSV format.
-- Tableau - For the dashboard.
+- SQL Server Management System (SSMS) - Used to import the raw dataset, create the data model, and clean the data before the analysis.
+- Tableau - Used to create the dashboards.
 
 ## 11. Missing Data
 **Null values**:
