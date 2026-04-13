@@ -1,4 +1,4 @@
-#   Supply Chain Shipment Pricing
+#   Logistics Operations
 
 ## Contents Table
 - [Introduction](#1-introduction)
@@ -32,7 +32,7 @@ This project analyses shipment pricing & delivery performance across a global su
 Shipment-level delivery history exported from a supply chain management system (SCMS). This dataset contains shipment identifiers,
 the destination country, vendor info, shipment mode, milestone dates, and cost/quantity fields.
 
-**Dataset source**: [Dataset Link!](https://www.kaggle.com/code/divyeshardeshana/supply-chain-shipment-price-data-analysis)
+**Dataset source**: [Dataset Link!](https://www.kaggle.com/datasets/yogape/logistics-operations-database/data)
 
 ### 5. Dataset Shape
 **Rows**: 1067371.
