@@ -26,14 +26,14 @@ Vixen Manufacturing needs to reduce stockouts & overstock situations. They want 
 demand patterns and lead times.
 
 ### 3. Business Questions
-- How many days' worth of inventory do we have on hand?
-- What is our stockout frequency by SKU?
-- How can we calculate our reorder point?
-- How do our suppliers rank in performance?
-- Is there a seasonality demand for any products?
-
+- What drives shipment cost & delivery performance across countries, vendors, and shipment modes?
+- Where are the biggest opportunities to reduce cost or improve reliability?
+  
 ## 4. Dataset Overview
-The dataset is the Supply Chain Shipment Price dataset sourced from [Kaggle.com](https://www.kaggle.com/code/divyeshardeshana/supply-chain-shipment-price-data-analysis).
+Shipment-level delivery history exported from a supply chain management system (SCMS). This dataset contains shipment identifiers,
+the destination country, vendor info, shipment mode, milestone dates, and cost/quantity fields.
+
+**Dataset source**: [Dataset Link!](https://www.kaggle.com/code/divyeshardeshana/supply-chain-shipment-price-data-analysis)
 
 ### 5. Dataset Shape
 **Rows**: 1067371.
