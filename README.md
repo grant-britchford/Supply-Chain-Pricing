@@ -36,11 +36,11 @@ the destination country, vendor info, shipment mode, milestone dates, and cost/q
 
 ### 5. Dataset Shape
 5 Tables: 
-- Facilities Rows: 100
-- Customers Rows: 200
-- Routes Rows: 58
-- Loads Rows: 85410
-- DeliveryEvents Rows: 170820
+- dbo.DimFacilities Rows: 100
+- dbo.DimCustomers Rows: 200
+- dbo.DimRoutes Rows: 58
+- dbo.DimLoads Rows: 85410
+- dbo.DimDeliveryEvents Rows: 170820
 
 ### 6. Key Variables
 The 8 Columns are: Invoice, StockCode, Quantity, Description, InvoiceDate, Price, Customer ID, Country.
